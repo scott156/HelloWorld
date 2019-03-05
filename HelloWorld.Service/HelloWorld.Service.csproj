@@ -5,8 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\XFramework.Dal\XFramework.Dal\XFramework.Dal.csproj" />
-    <ProjectReference Include="..\..\XFramework.Soa.Abstractions\XFramework.Soa.Abstractions\XFramework.Soa.Abstractions.csproj" />
+    <PackageReference Include="XFramework.Bom" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\HelloWorld.Contract\HelloWorld.Contract.csproj" />
     <ProjectReference Include="..\HelloWorld.Dal\HelloWorld.Dal.csproj" />
   </ItemGroup>

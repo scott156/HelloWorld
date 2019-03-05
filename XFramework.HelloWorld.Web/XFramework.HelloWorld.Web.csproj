@@ -13,16 +13,10 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="XFramework.Bom" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\XFramework.Configuration.Client\XFramework.Configuration.Client\XFramework.Configuration.Client.csproj" />
-    <ProjectReference Include="..\..\XFramework.Configuration.Server\XFramework.Configuration.Server.Contract\XFramework.Configuration.Server.Contract.csproj" />
-    <ProjectReference Include="..\..\XFramework.Core.Abstractions\XFramework.Core.Abstractions\XFramework.Core.Abstractions.csproj" />
-    <ProjectReference Include="..\..\XFramework.Core\XFramework.Core\XFramework.Core.csproj" />
-    <ProjectReference Include="..\..\XFramework.Dal\XFramework.Dal\XFramework.Dal.csproj" />
-    <ProjectReference Include="..\..\XFramework.Soa.Abstractions\XFramework.Soa.Abstractions\XFramework.Soa.Abstractions.csproj" />
-    <ProjectReference Include="..\..\XFramework.Soa\XFramework.Soa\XFramework.Soa.csproj" />
     <ProjectReference Include="..\HelloWorld.Business\HelloWorld.Business.csproj" />
     <ProjectReference Include="..\HelloWorld.Contract\HelloWorld.Contract.csproj" />
     <ProjectReference Include="..\HelloWorld.Service\HelloWorld.Service.csproj" />
